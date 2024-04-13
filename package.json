@@ -1,0 +1,19 @@
+{
+  "name": "barpack",
+  "version": "1.0.0",
+  "description": "A package for handling bars and related functionalities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "print_py_barpack": "node -e \"console.log('print_py_barpack (\\'' + require('./index').print_py_barpack('') + '\\')');\""
+  },
+  "keywords": [
+    "bars",
+    "utilities"
+  ],
+  "author": "Bartosz",
+  "license": "MIT",
+  "dependencies": {
+    // Add your dependencies here
+  }
+}
